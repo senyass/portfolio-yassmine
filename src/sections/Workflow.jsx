@@ -39,8 +39,8 @@ function Workflow() {
           </div>
       </div>
 
-      <div className="mt-20 bg-pink/50  rounded-[80px] p-10">
-        <h2 className="text-[35px] font-medium mb-6">My Current References</h2>
+      <div className="mt-30 bg-pink/50  rounded-[80px] p-10 max-w-[1400px] mx-auto flex flex-col items-center">
+        <h2 className="text-[35px] font-medium mt-5 mb-10">My Current References</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-30 w-full max-w-[900px] mx-auto ">
           <ResourceCard
             title="NN/g UI Design Course"
