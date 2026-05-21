@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+
+
+/* ------- Body General Design ------- */
+@layer base {
+  body {
+    font-family: 'Fredoka', sans-serif;
+    background-color: #FEFFF2;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 30px;
+  }
+}
+
+
+
+/* ------- Color Palette ------- */
+@theme {
+  --color-dark-green: #757854;
+  --color-olive: #C0C173;
+  --color-beige: #FEFFF2;
+  --color-pink: #E5B9B9;
+  --color-dark-pink: #C98595;
+  --color-green-black: #403D30;
+}
+
+
+
