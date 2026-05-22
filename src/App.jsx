@@ -4,6 +4,7 @@ import AboutMe from './sections/AboutMe';
 import LandingPage from './sections/LandingPage';
 import Workflow from './sections/Workflow';
 import Projects from './sections/Projects';
+import Resources from './sections/Resources';
 import { motion, useScroll, useMotionValueEvent } from "motion/react"
 import { use, useState } from "react"
 
@@ -52,6 +53,9 @@ function App() {
         <Workflow />
       </section>
 
+      <section id="resources" className="min-h-screen pt-20">
+        <Resources />
+      </section>
       <section id="projects" className="min-h-screen pt-20 px-5 md:px-20">
         <Projects />
       </section>
