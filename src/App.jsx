@@ -25,19 +25,16 @@ function App() {
     <main>
       {/* Navbar */}
       <motion.header
-        className="fixed z-10000 top-0 right-0 left-0 h-[80px] bg-pink/50 text-dark-green font-semibold flex justify-between items-center p-6 border shadow-sm"
-        animate={{
-            y: hidden ? -140 : 0,
-            opacity: hidden ? 0 : 1,
-        }}
-        transition={{ duration: 0.3, ease: "easeInOut" }}
+        className="fixed z-10000 top-1 left-4 right-4 rounded-[30px] h-[80px] bg-pink/50 text-dark-green font-semibold flex justify-between items-center p-6 border-b-2 border-dark-green/40 shadow-md backdrop-blur-md"
+       
       >
-     
-        <p className="text-[40px]">Yassmine</p>
+        
+        <Link to="landing" smooth={true} duration={500} className="text-[40px]  hover:text-dark-pink cursor-pointer hover:-translate-y-1 transition-all duration-300 flex item-center gap-2">Yassmine <span className="text-[30px] relative top-[11px]">✿</span></Link>
+        
         <div className="flex items-center gap-10 pr-5 text-[25px] ">
-          <Link to="about" smooth={true} duration={500} className="hover:text-dark-pink cursor-pointer">ABOUT ME</Link>
-          <Link to="workflow" smooth={true} duration={500} className="hover:text-dark-pink cursor-pointer">WORKFLOW</Link>
-          <Link to="projects" smooth={true} duration={500} className="hover:text-dark-pink cursor-pointer">PROJECTS</Link>
+          <Link to="about" smooth={true} duration={500} className="hover:text-dark-pink cursor-pointer hover:-translate-y-1 transition-all duration-300">ABOUT ME</Link>
+          <Link to="workflow" smooth={true} duration={500} className="hover:text-dark-pink cursor-pointer hover:-translate-y-1 transition-all duration-300">WORKFLOW</Link>
+          <Link to="projects" smooth={true} duration={500} className="hover:text-dark-pink cursor-pointer hover:-translate-y-1 transition-all duration-300">PROJECTS</Link>
         </div>
       </motion.header>
       {/* Sections */}
