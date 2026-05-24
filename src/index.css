@@ -1,6 +1,7 @@
 @import 'tailwindcss';
 
 
+
 /* ------- Body General Design ------- */
 @layer base {
   body {
@@ -12,9 +13,7 @@
     font-size: 50px;
   }
 
-  p {
-    font-size: 30px;
-  }
+  
 }
 
 /* ------- Special Handwritten Font ------- */
@@ -32,6 +31,9 @@
   --color-dark-pink: #C98595;
   --color-green-black: #403D30;
   --color-yellow: #FFF5D4;
+
+  --breakpoint-ipad: 500px;
+
 }
 
 
