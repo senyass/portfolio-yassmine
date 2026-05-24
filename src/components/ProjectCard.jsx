@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-function ProjectCard({ title, description, image, githubLink, websiteLink, technologies, className }) {
+function ProjectCard({ title, description, image, githubLink, websiteLink="/coming-soon.html", technologies, className }) {
     const tapeStyles = [
     "bg-pink/50 -rotate-2",
     "bg-olive/40 -rotate-1",
