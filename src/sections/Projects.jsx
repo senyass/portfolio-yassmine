@@ -1,7 +1,7 @@
 import ProjectCard from "../components/ProjectCard";
 import { motion } from "framer-motion";
 import flowerDarkPink from "../assets/flower-dark-pink.png";
-import hairdresser from "../assets/hairdresser.jpg";
+import dentistSite from "../assets/dentist-site.png";
 import memoryGame from "../assets/memory-game.jpeg";
 import ecommerce from "../assets/ecommerce.png";
 import analytics from "../assets/analytics.jpeg";
@@ -26,11 +26,12 @@ function Projects() {
         <motion.img initial={{ opacity: 0, x: -40 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.7 }} viewport={{ once: false, amount: 0.3 }} src={flowerDarkPink} alt="Flower" className="absolute -top-30 -right-18 min-[500px]:-right-25 min-[500px]:-top-32 min-[1770px]:-right-55 min-[1770px]:-top-32 w-[80px] min-[500px]:w-[120px] rotate-300"/>
       <ProjectCard
        className="col-start-1 xl:-rotate-2"
-        title="Service Site"
-        description="Coming soon!"
-        image={hairdresser}
-        githubLink="https://github.com"
-        technologies={["Tech 1", "Tech 2", "Tech 3", "Tech 4"]}
+        title="Navy Dental"
+        description="A responsive dental clinic website featuring service exploration, appointment booking, and emergency care access."
+        image={dentistSite}
+        githubLink="https://github.com/senyass/dentist-site"
+        websiteLink="https://navydental.netlify.app/"
+        technologies={["React", "Vite", "TailwindCSS", "JavaScript", "HTML", "CSS"]}
       />
       <ProjectCard
       className="xl:col-start-2 xl:rotate-1 "
