@@ -2,7 +2,7 @@ import ProjectCard from "../components/ProjectCard";
 import { motion } from "framer-motion";
 import flowerDarkPink from "../assets/flower-dark-pink.png";
 import dentistSite from "../assets/dentist-site.png";
-import memoryGame from "../assets/memory-game.jpeg";
+import memoryGame from "../assets/memory-game.jpg";
 import ecommerce from "../assets/ecommerce.png";
 import analytics from "../assets/analytics.jpeg";
 
@@ -35,11 +35,12 @@ function Projects() {
       />
       <ProjectCard
       className="xl:col-start-2 xl:rotate-1 "
-        title="Memory Game"
-        description="Coming soon!"
+        title="Bakery Rush"
+        description="A bakery memory recall game to improve cognitive skills."
         image={memoryGame}
-        githubLink="https://github.com"
-        technologies={["Tech 1", "Tech 2", "Tech 3"]}
+        githubLink="https://github.com/senyass/memory-game"
+        websiteLink="https://bakeryrush.netlify.app/"
+        technologies={["React", "Vite", "TailwindCSS", "JavaScript", "HTML", "CSS"]}
       />
       <ProjectCard
       className="col-start-1 xl:rotate-1"
