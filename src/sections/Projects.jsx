@@ -44,11 +44,12 @@ function Projects() {
       />
       <ProjectCard
       className="col-start-1 xl:rotate-1"
-        title="E-commerce Site"
-        description="Coming soon!"
+        title="ATELIER"
+        description="A modern fashion e-commerce experience focused on effortless browsing, timeless style, and a seamless shopping journey."
         image={ecommerce}
-        githubLink="https://github.com"
-        technologies={["Tech 1", "Tech 2", "Tech 3", "Tech 4", "Tech 5"]}
+        githubLink="https://github.com/senyass/e-commerce"
+        websiteLink="https://atelier-3125.netlify.app/"
+        technologies={["React", "Vite", "TailwindCSS", "JavaScript", "HTML", "CSS"]}
       />
       <ProjectCard
       className="xl:col-start-2 xl:-rotate-1"
