@@ -4,7 +4,7 @@ import flowerDarkPink from "../assets/flower-dark-pink.png";
 import dentistSite from "../assets/dentist-site.png";
 import memoryGame from "../assets/memory-game.jpg";
 import ecommerce from "../assets/ecommerce.png";
-import analytics from "../assets/analytics.jpeg";
+import analytics from "../assets/analytics.png";
 
 function Projects() {
   return (
