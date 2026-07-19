@@ -53,11 +53,12 @@ function Projects() {
       />
       <ProjectCard
       className="xl:col-start-2 xl:-rotate-1"
-        title="Analytics Site"
-        description="Coming soon!"
+        title="Fast Food Consumption Dashboard"
+        description="A bilingual dashboard designed to communicate Canadian fast food consumption data through interactive visualizations."
         image={analytics}
-        githubLink="https://github.com"
-        technologies={["Tech 1", "Tech 2", "Tech 3", "Tech 4"]}
+        githubLink="https://github.com/senyass/dashboard"
+        websiteLink="https://dashboard-3125.netlify.app/"
+        technologies={["React", "Vite", "TailwindCSS", "JavaScript", "HTML", "CSS"]}
       />
       <motion.img initial={{ opacity: 0, y: -40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }} viewport={{ once: false, amount: 0.3 }} src={flowerDarkPink} alt="Flower" className="absolute -left-25 -bottom-30 min-[500px]:-left-35 min-[500px]:-bottom-40 min-[1770px]:-left-65 min-[1770px]:-bottom-35 w-[150px] min-[500px]:w-[220px] rotate-40"/>
       </div>
